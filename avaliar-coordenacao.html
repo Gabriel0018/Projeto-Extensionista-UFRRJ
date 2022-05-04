@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/sigaa.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Área | Coordenação</title>
+
+    <style>
+        @media screen and (max-width: 670px){
+            .cabecalho{
+                display: block;
+            }
+        }
+
+        h1{ 
+            text-align: center;
+            font-family: Verdana, Arial, Helvetica, sans-serif;;
+            font-size: 14px;
+            color:#3B4877;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <div class="principal">
+            <div class="cabecalho_ufrrj">
+                <p>UFRRJ - Universidade Federal Rural do Rio de Janeiro</p>
+            </div>
+
+            <div class="microespacocabecalho"></div>
+
+            <div class="cabecalho">
+                <p>Nome: João Pedro de Souza</p>
+                <p>Matrícula: 12345678910</p>
+                <p>Departamento: DCOMP - Seropédica</p>
+                <div class="espacamento"></div>
+            </div>
+        </div>
+
+        <div class="microespacocabecalho" style="background-color: #3B4877"></div>
+
+        <div class="cabecalho">
+                <p>Avaliar > Projeto</p>
+            </div>
+            <br>
+        </div>
+
+        <form style="background-color:#F9FBFD;">
+            <fieldset>
+                <legend style="text-align: center;"><strong>Projeto</strong></legend>
+                <br>
+                <div class="textolarge">
+                    <p><spen class="destaque"><h1>SISTEMA DE MONITORAMENTO AUTOMATIZADO</h1></spen><div class="microespaco"></div>
+                    <p><spen class="destaque">Descrição:</spen> Utilização de um sistema de monitoramento capaz de controlar as condições de trabalho dos funcionários do instituto de Educação Física da UFRRJ por meio da utilização de vestíveis</p>
+                    <p><spen class="destaque">Vínculo:</spen> Departamento de Educação Física da UFRRJ</p>
+                    <p><spen class="destaque">Atividade desempenhada:</spen> Desenvolvimento de sistemas computacionais</p>
+                    <p><spen class="destaque">Início:</spen> 25/05/2022</p>
+                </div>
+                <div class="microespaco"></div>
+                <form style="background-color:#F9FBFD;">
+                    <fieldset>
+                        <legend style="text-align: center;"><strong>Discente: Ana Beatriz Soares</strong></legend>
+                        <br>
+                        <div class="textolarge">
+                            <p><spen class="destaque">Carga horária total pendente de projetos extensionistas: </spen>306h</p>
+                            <p><spen class="destaque">Matrícula: </spen>20180013805</p>
+                            <p><spen class="destaque">Curso: </spen>Sistemas de Informação</p>
+                            <p><spen class="destaque">Período letivo atual: </spen>5ᵒ período</p>
+                        </div>
+                        <div class="microespaco"></div>
+                    </fieldset>
+                </form>
+                <br><form style="background-color:#F9FBFD;">
+                    <fieldset>
+                        <legend style="text-align: center;"><strong>Docente: Júlia Pereira Santos</strong></legend>
+                        <br>
+                        <div class="textolarge">
+                            <p><spen class="destaque">Matrícula: </spen>12345678910</p>
+                            <p><spen class="destaque">Departamento: </spen>DCOMP - Seropédica</p>
+                        </div>
+                        <div class="microespaco"></div>
+                </fieldset>
+        </form>
+        <br>
+        <form style="background-color:#F9FBFD;">
+            <fieldset>
+                <legend style="text-align: center;"><strong>Relatório</strong></legend>
+                <br>
+                <div class="textolarge">
+                    <p><spen class="destaque"><h1>MÊS REFERENTE À JUNHO DE 2022</h1></spen><div class="microespaco"></div>
+                    <p><spen class="destaque">Data enviada: </spen>04/07/2022</p>
+                    <p><spen class="destaque">Carga Horária total pretendida: </spen>40h | 10h semanais</p>
+                    <p><spen class="destaque">Resumo das atividades exercidas: </spen><ul>
+                        <li>Reunião com os funcionários | 4h</li><br>
+                        <li>Planejamento estratégico com o grupo de designers do projeto | 4h</li><br>
+                        <li>Análise computacional dos vestiveis | 12h</li><br>
+                        <li>Implementação de código em linguagem  de programação Python | 20h</li><br>
+                    </ul></p>
+                    <a href="#">Baixe aqui os arquivos anexados do relatório</a>
+                </div>
+                <div class="microespaco"></div>
+            </fieldset>
+        </form>
+            </fieldset>
+        </form>
+        <br>
+        <form style="background-color:#F9FBFD;">
+            <fieldset>
+                <legend style="text-align: center; background-color: #FFFFE4;"><strong>Área de avaliação da coordenação</strong></legend>
+                <br>
+                <div class="inputbox">
+                        <img src="imagens/estrela.png" alt="Campo obrigatório">
+                            <label for="matricula">Horas contabilizadas:</label>
+                            <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" id="matricula" class="input_user" maxlength="3" required>
+                        </img>
+                    </div>
+                    <div class="microespaco"></div>
+                
+
+                <div class="large">
+                <img src="imagens/estrela.png" alt="Campo obrigatório">
+                    <label for="login" style="font-size: 14px">Informe o processo de contabilização das horas:</label><br>
+                    <textarea name="caixagrande" id="caixagrande" cols="5" rows="5" required></textarea>
+                </img>
+            </div>   
+            <div class="microespaco"></div>
+            <div class="centralizar">
+                <button class="btao-login"><a href="inicio-coordenacao.html" style="color:black">Retornar</a></button>
+                <button class="btao-login">Confirmar</button></div>
+            </fieldset>
+        </form> 
+    </main>
+</body>
+</html>

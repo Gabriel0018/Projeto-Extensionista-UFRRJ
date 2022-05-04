@@ -1,2 +1,6 @@
-# Projeto-Extensionista-UFRRJ
-Projeto final para a disciplina Introdução à Sistemas Web - construção de um site capaz de atender a demanda de estudantes universitários em anexar relatórios mensais sobre o projeto extensionista
+# Projeto de disciplina Introdução à Sistemas Web
+Implementação visual de um site capaz de atender a demanda dos universitários em anexar relatórios de projetos de extensão e receber feedbacks de carga horária por parte da coordenação
+
+<a href="https://projeto-extensionista-ufrrj.netlify.app/" target="_blank" rel="external"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAlfyWr5kej0PNcWD-Qd_y5eAARzSFrHDzybuzXPFVKBAB0IQ9cttdH11XbwpFYnIgCR4&usqp=CAU"></img>Link do Site</a>
+<a href="https://www.youtube.com/watch?v=aNrgSE-q-0k" target="_blank" rel="external"><img src="https://cdn-0.androidphone.fr/wp-content/uploads/2020/03/probleme-connexion-youtube.png?ezimgfmt=rs:256x256/rscb21/ng:webp/ngcb21"></img>Link do vídeo no YouTube</a>
+
