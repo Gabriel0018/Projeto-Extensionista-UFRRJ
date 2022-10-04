@@ -1,5 +1,5 @@
 ## Projeto inicial - Disciplina Introdução à Sistemas Web
-**Implementação visual de um site capaz de atender a demanda dos universitários em anexar relatórios de projetos de extensão e receber feedbacks de carga horária por parte da coordenação**
+**Implementação visual de um site capaz de atender a demanda dos universitários em anexar relatórios de projetos de extensão e receber feedbacks de carga horária por parte da coordenação (HTML e CSS)**
 
 [Disciplina Web 1 - PHP e Java Script](https://github.com/Gabriel0018/Projeto-Extensionista-UFRRJ/tree/Web-1)
 
